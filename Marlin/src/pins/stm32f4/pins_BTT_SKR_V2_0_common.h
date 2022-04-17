@@ -216,6 +216,14 @@
   #define E1_CS_PIN                         PD12
 #endif
 
+//Cambios para utilizar Z2
+#define Z2_STEP_PIN                          PD11
+#define Z2_DIR_PIN                           PD10
+#define Z2_ENABLE_PIN                        PD13
+#ifndef Z2_CS_PIN
+  #define Z2_CS_PIN                          PD12
+#endif
+
 //
 // Temperature Sensors
 //
